@@ -402,6 +402,7 @@ code {
   display: inline-block;
   vertical-align: top;
   font-weight: 600;
+  text-transform: uppercase;
 }
 .header-inner #logo .site-title:hover {
   text-decoration: underline;
@@ -579,7 +580,7 @@ code {
   height: auto !important;
   line-height: 1.6em;
   outline: none !important;
-  background: none !important;
+  background: #fafafa !important;
   font: 14px "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
   border: 1px solid #212121 !important;
 }
