@@ -834,7 +834,8 @@ code {
   margin-bottom: 14px;
 }
 .article-title {
-  font-size: 2em;
+  font-size: 2.2em;
+  font-weight: bold;
   color: #212121;
   line-height: 1.3em;
 }
@@ -885,6 +886,7 @@ a.article-title:hover {
   color: #212121;
   padding: 0 20px;
   line-height: 1.6em;
+  font-size: 115%;
 }
 .article-entry:before,
 .article-entry:after {
@@ -1185,7 +1187,7 @@ a.article-title:hover {
   line-height: 36px;
 }
 .article-share-links {
-  background: #fafafa;
+  background: transparent;
 }
 .article-share-links:before,
 .article-share-links:after {
@@ -1202,7 +1204,7 @@ a.article-title:hover {
   width: 50px;
   height: 36px;
   display: block;
-  float: left;
+  float: right;
   position: relative;
   color: #999;
   text-shadow: 0 1px #fff;
