@@ -196,15 +196,14 @@ ga('send', 'pageview');
     </div>
     
     <div class="profile-ad" style="margin-top:20px;">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- cheeper-blog-ad-responsive -->
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-5591505161810359"
-            data-ad-slot="1674407827"
-            data-ad-format="auto"></ins>
+        
         <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
+            (function(){
+                $.get('/ads/vertical').then(function(result){
+                    var html = result.data[0];
+                    $('.profile-ad').html(html);
+                })
+            })()
         </script>
     </div>
 </aside>
