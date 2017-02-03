@@ -48,9 +48,9 @@
     
       <category term="Phone" scheme="https://cheeper.io/blog/tags/Phone/"/>
     
-      <category term="Apple" scheme="https://cheeper.io/blog/tags/Apple/"/>
-    
       <category term="Samsung" scheme="https://cheeper.io/blog/tags/Samsung/"/>
+    
+      <category term="Apple" scheme="https://cheeper.io/blog/tags/Apple/"/>
     
       <category term="Huawei" scheme="https://cheeper.io/blog/tags/Huawei/"/>
     
@@ -120,6 +120,8 @@
       <category term="Reviews" scheme="https://cheeper.io/blog/categories/Reviews/"/>
     
     
+      <category term="Apple" scheme="https://cheeper.io/blog/tags/Apple/"/>
+    
       <category term="Laptop" scheme="https://cheeper.io/blog/tags/Laptop/"/>
     
       <category term="MacBook" scheme="https://cheeper.io/blog/tags/MacBook/"/>
@@ -127,8 +129,6 @@
       <category term="XPS15" scheme="https://cheeper.io/blog/tags/XPS15/"/>
     
       <category term="Dell" scheme="https://cheeper.io/blog/tags/Dell/"/>
-    
-      <category term="Apple" scheme="https://cheeper.io/blog/tags/Apple/"/>
     
   </entry>
   
@@ -290,13 +290,13 @@
       <category term="Reviews" scheme="https://cheeper.io/blog/categories/Reviews/"/>
     
     
+      <category term="Phone" scheme="https://cheeper.io/blog/tags/Phone/"/>
+    
       <category term="Google" scheme="https://cheeper.io/blog/tags/Google/"/>
     
       <category term="Pixel" scheme="https://cheeper.io/blog/tags/Pixel/"/>
     
       <category term="Android" scheme="https://cheeper.io/blog/tags/Android/"/>
-    
-      <category term="Phone" scheme="https://cheeper.io/blog/tags/Phone/"/>
     
   </entry>
   
