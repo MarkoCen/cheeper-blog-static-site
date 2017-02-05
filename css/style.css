@@ -934,12 +934,18 @@ a.article-title:hover {
   margin-top: 1.6em;
   margin-bottom: 1.6em;
 }
-.article-entry img,
 .article-entry video {
   max-width: 100%;
   height: auto;
   display: block;
   margin: auto;
+}
+.article-entry img {
+  max-width: 100%;
+  border-radius: 5px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 .article-entry iframe {
   border: none;
@@ -1012,6 +1018,12 @@ a.article-title:hover {
   padding-top: 56.25%;
   height: 0;
   overflow: hidden;
+  margin: 0 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 18px 1px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 7px 18px 1px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0px 7px 18px 1px rgba(0,0,0,0.35);
+  box-shadow: 0px 7px 18px 1px rgba(0,0,0,0.35);
 }
 .article-entry .video-container iframe,
 .article-entry .video-container object,
