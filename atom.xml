@@ -305,11 +305,11 @@
       <category term="Top 5s" scheme="https://cheeper.io/blog/categories/Top-5s/"/>
     
     
-      <category term="Sony" scheme="https://cheeper.io/blog/tags/Sony/"/>
-    
       <category term="Phone" scheme="https://cheeper.io/blog/tags/Phone/"/>
     
       <category term="Moto" scheme="https://cheeper.io/blog/tags/Moto/"/>
+    
+      <category term="Sony" scheme="https://cheeper.io/blog/tags/Sony/"/>
     
       <category term="LeEco" scheme="https://cheeper.io/blog/tags/LeEco/"/>
     
@@ -616,13 +616,13 @@
       <category term="Top 5s" scheme="https://cheeper.io/blog/categories/Top-5s/"/>
     
     
+      <category term="Sony" scheme="https://cheeper.io/blog/tags/Sony/"/>
+    
       <category term="Camera" scheme="https://cheeper.io/blog/tags/Camera/"/>
     
       <category term="Canon" scheme="https://cheeper.io/blog/tags/Canon/"/>
     
       <category term="Pentax" scheme="https://cheeper.io/blog/tags/Pentax/"/>
-    
-      <category term="Sony" scheme="https://cheeper.io/blog/tags/Sony/"/>
     
       <category term="Nikon" scheme="https://cheeper.io/blog/tags/Nikon/"/>
     
@@ -740,13 +740,13 @@
       <category term="Reviews" scheme="https://cheeper.io/blog/categories/Reviews/"/>
     
     
-      <category term="Phone" scheme="https://cheeper.io/blog/tags/Phone/"/>
-    
       <category term="Google" scheme="https://cheeper.io/blog/tags/Google/"/>
     
       <category term="Pixel" scheme="https://cheeper.io/blog/tags/Pixel/"/>
     
       <category term="Android" scheme="https://cheeper.io/blog/tags/Android/"/>
+    
+      <category term="Phone" scheme="https://cheeper.io/blog/tags/Phone/"/>
     
   </entry>
   
