@@ -193,12 +193,23 @@ ga('send', 'pageview');
         
     </div>
     
-    <div class="profile-ad" style="margin-top:20px;text-align:center;">
+    <div class="profile-ad-1" style="margin-top:20px;text-align:center;">
         <script>
             (function(){
                 $.get('/ads/rectangle').then(function(result){
                     var html = result[0];
-                    $('.profile-ad').append(html);
+                    $('.profile-ad-1').append(html);
+                })
+            })()
+        </script>
+    </div>
+
+    <div class="profile-ad-2" style="margin-top:20px;text-align:center;">
+        <script>
+            (function(){
+                $.get('/ads/rectangle').then(function(result){
+                    var html = result[0];
+                    $('.profile-ad-2').append(html);
                 })
             })()
         </script>
@@ -397,7 +408,7 @@ ga('send', 'pageview');
 </section>
             
                 <aside id="sidebar">
-    <div class="right-ad-bar-2" style="padding-top:20px;text-align:center;">
+    <div class="right-ad-bar-1" style="padding-top:40px;text-align:center;">
     </div>
    
         
@@ -524,10 +535,15 @@ ga('send', 'pageview');
     </div>
 
     
+    <div class="right-ad-bar-2" style="padding-top:20px;text-align:center;">
+    </div>
     <div id="toTop" class="fa fa-angle-up"></div>
     <script>
         (function(){
             $.get('/ads/rectangle').then(function(result){
+                $('.right-ad-bar-1').append(result[0]);
+            })
+            $.get('/ads/vertical').then(function(result){
                 $('.right-ad-bar-2').append(result[0]);
             })
         })()
